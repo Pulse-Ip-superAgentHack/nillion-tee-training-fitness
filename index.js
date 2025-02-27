@@ -2,7 +2,6 @@ const fs = require("fs");
 const OpenAI = require("openai");
 require("dotenv").config();
 
-// Assume the user's fitness data is stored in a local JSON file named "fitnessData.json"
 const fitnessData = require("./fitnessData.json");
 
 // Create the AI character configuration using only the fitness data.
